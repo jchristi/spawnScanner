@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./static/sweetalert.min.css" />
+    <link rel="stylesheet" href="./static/worker_location_generator.css" />
+    <link rel="stylesheet" href="./static/map.css" />
+    <script type="text/javascript" src="./static/async.min.js"></script>
+    <script type="text/javascript" src="./static/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="./static/sweetalert.min.js"></script>
+    <script type="text/javascript" src="./static/worker_location_generator.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="legend"><h3>Legend</h3></div>
+    <textarea id="LocationsJSON"></textarea>
+    <textarea id="LocationsJSON_hidden"></textarea>
+    <script type="text/javascript" src="./static/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=GOOGLE_MAPS_API_KEY&callback=initMap"></script>
+  </body>
+</html>

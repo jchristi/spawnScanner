@@ -1,0 +1,12 @@
+{
+  "auth_service": "ptc",
+  "users": [
+    {"username": "yourusername", "password": "yourpassword"}
+  ],
+  "proxy_config": { "http": "socks5://127.0.0.1:9050", "https": "socks5://127.0.0.1:9050" },
+  "work": [
+    [38.89868165350575, -77.0379889011383, 38.896426729425215, -77.03509139060975]
+  ],
+  "stepsPerPassPerWorker": 50,
+  "scanDelay": 10.2
+}

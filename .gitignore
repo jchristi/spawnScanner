@@ -1,0 +1,12 @@
+*.swp
+*.swo
+*.pyc
+config.json
+geo_gyms.json
+geo_stops.json
+gyms.json
+pokes.json
+spawns.json
+stops.json
+lib/*.dll
+lib/*.so
